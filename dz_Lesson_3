@@ -1,0 +1,92 @@
+// N1
+//List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+//foreach (var item in numbers)
+//{
+//    if (item % 2 == 0)
+//    {
+//        Console.WriteLine(item);
+//    }
+//}
+
+
+// N2
+//List<int> numbers = new List<int>() { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+
+//foreach (var item in numbers)
+//{
+//    if (item % 4 == 0)
+//    {
+//        Console.WriteLine(item);
+//    }
+//}
+
+
+// N3
+//Dictionary<string, string> cities = new Dictionary<string, string>()
+//{
+//    {"USA", "Washington"},
+//    {"Canada", "Ottawa"},
+//    {"United Kingdom", "London"},
+//    {"Australia", "Canberra"},
+//    {"Germany", "Berlin"},
+//    {"France", "Paris"},
+//    {"Japan", "Tokyo"},
+//    {"China", "Beijing"},
+//    {"India", "New Delhi"},
+//    {"Brazil", "Brasilia"}
+//};
+
+//bool found = false;
+
+//foreach (var item in cities.Values)
+//{
+//    if(item.StartsWith("A") || item.EndsWith("a"))
+//    {
+//        Console.WriteLine(item);
+//        found = true;
+//    }
+//}
+
+//if (found == false)
+//{
+//    Console.WriteLine("Город отсутвует");
+//}
+
+
+// N4
+
+//Dictionary<string, int> movieRatings = new Dictionary<string, int>()
+//{
+//    {"The Shawshank Redemption", 10},
+//    {"The Godfather", 9},
+//    {"The Dark Knight", 9},
+//    {"SHindlers List", 8},
+//    {"Pulp Fiction", 8},
+//    {"The Room", 3},
+//    {"Birdemic: Shock and Terror", 2},
+//    {"Plan 9 from Outer Space", 3},
+//    {"Battlefield Earth", 4},
+//    {"Troll 2", 2},
+//};
+
+//List<string> moviesToRemove = new List<string>();
+
+//foreach (var movie in movieRatings) 
+//{ 
+//    if (movie.Value >= 4 && movie.Value <= 6) 
+//    { 
+//        moviesToRemove.Add(movie.Key); 
+//    } 
+//}
+
+//foreach (var movie in moviesToRemove) 
+//{
+//    movieRatings.Remove(movie); 
+//}
+
+//Console.WriteLine("Оставшиеся фильмы и их рейтинги:"); 
+//foreach (var movie in movieRatings) 
+//{ 
+//    Console.WriteLine($"{movie.Key}: {movie.Value}"); 
+//}
